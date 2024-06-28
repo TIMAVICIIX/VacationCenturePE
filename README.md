@@ -23,28 +23,28 @@
 
 ## 项目内容：<br>
 ### 1.该项目由三个Activity组成，其中包含了一个遮罩Activity,一个登录Activity,一个主页Activity
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
-        <img src="image/Cover_Activity.png" alt="遮罩Activity" style="width: 100%;">
-        <img src="image/Login_Activity.png" alt="登录Activity" style="width: 100%;">
-        <img src="image/Main_Activity_MainFragment.png" alt="主页Activity" style="width: 100%;">
+<div style="display: flex">
+        <img style="width: 30%;" src="image/Cover_Activity.png" alt="遮罩Activity">
+        <img style="width: 30%;" src="image/Login_Activity.png" alt="登录Activity">
+        <img style="width: 30%;" src="image/Main_Activity_MainFragment.png" alt="主页Activity">
 </div>
 
 #### 该Activity流设计方式使得遮罩Activity能够实现除第一次外的自动登录模式,通过获取Login_Activity的SharedPreference,遮罩Activity能够快速的获得用户账号与密码,让应用实现自动登录以及保持会话功能.
 
 ### 2.该项目中的Main_Activity由一个ViewPager2与MainActivity底部导航栏组成;
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
-        <img src="image/Main_Activity_HistoryFragment.png" alt="历史记录Fragment" style="width: 100%;">
-        <img src="image/display.gif" alt="展示GIF" style="width: 100%;">
-        <img src="image/Main_Activity_ProfileFragment.png" alt="个人Activity" style="width: 100%;">
+<div style="display: flex">
+        <img style="width: 30%;" src="image/Main_Activity_HistoryFragment.png" alt="历史记录Fragment">
+        <img style="width: 30%;" src="image/Main_Activity_ProfileFragment.png" alt="个人Activity">
+        <img style="width: 50%;" src="image/display.gif" alt="展示GIF">
 </div>
 
 #### ViewPager2组件中包括了三个Fragment,分别是Main_Fragment,History_Fragment与Profile_Fragment,三个fragment拥有各自的ViewModel供MainActivity进行数据交换与UI交互.
 
 ### 3.在填写假期去向时,MainFragment与HistoryFragment会挂载一个子Fragment为用户提供填写UI.
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
-        <img src="image/Reporting.png" alt=“填写中" style="width: 100%;">
-        <img src="image/Changing.png" alt="修改中" style="width: 100%;">
-        <img src="image/Checking.png" alt="查看中" style="width: 100%;">
+<div style="display: flex">
+        <img style="width: 30%;" src="image/Reporting.png" alt=“填写中">
+        <img style="width: 30%;" src="image/Changing.png" alt="修改中">
+        <img style="width: 30%;" src="image/Checking.png" alt="查看中">
 </div>
 
 #### 这个填写与历史假期查看的Fragment具有良好的防卫式程序设计以及健壮性.
