@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">VacationVenturePE</string>
+    <string name="vacation_venture">乐行学途</string>
+
+    <string name="none">无</string>
+
+    <!--login_view-->
+    <string name="loginView_Account_input">学号:</string>
+    <string name="loginView_Password_input">密码:</string>
+    <string name="loginView_Account_hint">请输入学号</string>
+    <string name="loginView_Password_hint">请输入密码</string>
+    <string name="login_remind">请输入完整的账号密码后，再尝试登录!</string>
+
+    <string name="account_error">用户不存在</string>
+    <string name="password_error">密码错误</string>
+    <string name="overdue_error">会话过期,请重新登录</string>
+    <string name="inside_error">内部错误,请稍后登录!</string>
+    <string name="unknown_error">未知错误,请尝试手动登录!</string>
+
+    <string name="account_changed">账号已注销,请更换账号登录!</string>
+    <string name="password_changed">用户密码已修改,请重新登录!</string>
+
+    <string name="network_error">局域网网络错误,请检查网络连接!</string>
+
+    <string name="login_text">登录</string>
+    <string name="login_tips">
+       点击登录默认阅读并同意
+    </string>
+    <string name="sensitive_tips">隐私政策</string>
+    <string name="and">与</string>
+    <string name="service_tips">服务条款</string>
+    <string name="unload">未加载</string>
+    <string name="Version" translatable="false">Version:</string>
+    <string name="unload_title">未加载的标题</string>
+    <string name="unload_content">未加载的内容</string>
+    <string name="example_text" translatable="false">沁园春·雪 \n北国风光，千里冰封，万里雪飘。\n望长城内外，惟余莽莽；大河上下，顿失滔滔。\n山舞银蛇，原驰蜡象，欲与天公试比高。\n须晴日，看红装素裹，分外妖娆。\n 江山如此多娇，引无数英雄竞折腰。\n惜秦皇汉武，略输文采；唐宗宋祖，稍逊风骚。\n一代天骄，成吉思汗，只识弯弓射大雕。\n俱往矣，数风流人物，还看今朝。</string>
+    <string name="back_login">返回登录</string>
+    <string name="publisher">发布人:</string>
+    <string name="publish_time">发布时间:</string>
+    <string name="publish_target">发布对象:</string>
+    <!--main_info-->
+    <string name="history_memo_navigation">历史记录</string>
+    <string name="target_memo_navigation">去向填写</string>
+    <string name="mine_navigation">我的</string>
+    <string name="vacation_writing">进入填写</string>
+    <string name="vacation_change">修改填写</string>
+    <string name="vacation_check">查看详情</string>
+    <string name="info_name">姓名</string>
+    <string name="info_college">所属学院</string>
+    <string name="info_spec">所属专业</string>
+    <string name="info_class">所属班级</string>
+    <string name="info_change_password">修改密码</string>
+    <string name="info_origin_password">原密码</string>
+    <string name="info_new_password">新密码</string>
+    <string name="info_origin_password_hint">请输入原密码</string>
+    <string name="info_new_password_hint">请输入新密码</string>
+    <string name="info_password_not_empty">请输入完整信息</string>
+    <string name="info_new_password_again_hint">再次输入新密码</string>
+    <string name="info_new_password_gap_tips">两次输入新密码不一致</string>
+    <string name="info_new_password_equal_tips">不能与旧密码一致</string>
+    <string name="undo_change_password_btn">退出</string>
+    <string name="change_password_btn">更改密码</string>
+    <string name="change_password_error_op">原密码错误!</string>
+    <string name="change_password_sf">更改密码成功,请重新登录!</string>
+    <!--vacation_info-->
+    <string name="vacation_info_title">-假期信息-</string>
+    <string name="vacation_info_name">假期号:</string>
+    <string name="vacation_info_type">假期类型:</string>
+    <string name="vacation_info_during">持续时间:</string>
+    <string name="vacation_info_des">假期描述:</string>
+    <!--write_info-->
+    <string name="target_title">---假期去向填写---</string>
+    <string name="leave">离校</string>
+    <string name="stay">留校</string>
+    <string name="navigation_history">历史填写</string>
+    <string name="navigation_report">去向填写</string>
+    <string name="navigation_mine">我的</string>
+    <string name="example_version">Version:0.5.0 R&amp;D</string>
+
+    <string name="app_ch_name">乐行学途</string>
+    <string name="exit_twice">再按一次退出乐行学途!</string>
+
+    <string name="none_info">好像是空的诶</string>
+    <string name="bottom_warn">---已经到底部了!---</string>
+
+    <string name="change_psw">更换密码</string>
+    <string name="logout">退出登录</string>
+
+    <string name="info">详细信息</string>
+    <string name="start_report">请填写你的信息</string>
+    <string name="optional_report">灰色信息项为选填</string>
+
+    <string name="live_status">离校情况:</string>
+    <string name="live_true">离校</string>
+    <string name="live_false">留校</string>
+    <string name="live_true_text">已选择留校</string>
+
+    <string name="live_location">离校目的地:</string>
+    <string name="example_location">贵州省 黔南布依族苗族自治州 都匀市</string>
+    <string name="more_location">请填写详细地址</string>
+
+    <string name="live_method">离校描述:</string>
+    <string name="live_method_hint">请输入离校描述</string>
+
+    <string name="emergency_telephone">紧急联系人电话:</string>
+    <string name="none_em_telephone">无联系人电话</string>
+    <string name="emergency_telephone_hint">请输入紧急联系人电话</string>
+
+    <string name="infos_submit">提交信息</string>
+    <string name="infos_submit_sensitive">请填将必要的信息填写完整!</string>
+    <string name="infos_submit_success">提交成功!</string>
+    <string name="infos_submit_tips">信息提交后，可到历史假期中查看与修改!</string>
+    <string name="infos_disable_tips">假期过期咯!不能再修改了!</string>
+    <string name="infos_none_record">你没有填过该假期表哦!</string>
+
+    <string name="example_vacation_type">国家标准假期</string>
+    <string name="example_vacation_overdue">已过期</string>
+    <string name="example_vacation_status">填写中</string>
+    <string name="example_vacation_name">2024端午节</string>
+    <string name="example_vacation_belong">全体学院</string>
+    <string name="example_vacation_during">2024.6.8–2024.6.10</string>
+    <string name="click_to_check">点击卡片进入查看</string>
+    <string name="click_to_write">点击卡片进入填写</string>
+
+    <!--Test Strings-->
+    <string name="test">WARN-这是一个测试Activity-WARN</string>
+    <string name="loading">加载中</string>
+
+</resources>

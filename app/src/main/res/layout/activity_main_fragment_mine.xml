@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_marginTop="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8.5"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="630dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/main_activity_item_background"
+            card_view:cardCornerRadius="8dp"
+            card_view:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/mine_background"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3">
+
+                    <LinearLayout
+                        android:id="@+id/main_activity_mine_location_refresh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:orientation="horizontal"
+                        android:layout_alignParentRight="true">
+
+                        <ImageView
+                            android:layout_height="33dp"
+                            android:layout_width="33dp"
+                            android:background="@drawable/localtion"/>
+
+                        <TextView
+                            android:id="@+id/main_activity_user_location_textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:fontFamily="@font/ali_mama_fang"
+                            android:text="@string/unload"
+                            android:padding="10dp"/>
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/user_icon"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="5dp"
+                        android:foreground="@drawable/student_icon_foreground"
+                        android:background="@drawable/student_icon_unload"/>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:padding="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/main_activity_user_name_textview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:fontFamily="@font/ali_mama_fang"
+                        android:text="@string/unload"/>
+
+                    <TextView
+                        android:id="@+id/main_activity_user_account_textview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_margin="5dp"
+                        android:textSize="17sp"
+                        android:fontFamily="@font/ali_mama_fang"
+                        android:text="@string/unload"/>
+
+                    <TextView
+                        android:id="@+id/main_activity_user_belong_textview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="@font/ali_mama_fang"
+                        android:textSize="18sp"
+                        android:text="@string/unload"/>
+
+                    <TextView
+                        android:id="@+id/main_activity_user_report_textview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:fontFamily="@font/ali_mama_fang"
+                        android:textSize="18sp"
+                        android:text="@string/unload"/>
+
+                    <TextView
+                        android:id="@+id/main_activity_user_unreport_textview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:fontFamily="@font/ali_mama_fang"
+                        android:textSize="18sp"
+                        android:text="@string/unload"/>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3">
+
+                    <Button
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/main_activity_change_psw_btn"
+                        android:layout_width="210dp"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/login_btn_anime"
+                        android:fontFamily="@font/ali_mama_fang"
+                        android:text="@string/change_psw"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:letterSpacing="1"/>
+
+                    <Button
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="35dp"
+                        android:id="@+id/main_activity_logout_btn"
+                        android:layout_width="210dp"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/login_btn_anime"
+                        android:fontFamily="@font/ali_mama_fang"
+                        android:text="@string/logout"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:letterSpacing="1"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"/>
+
+</LinearLayout>

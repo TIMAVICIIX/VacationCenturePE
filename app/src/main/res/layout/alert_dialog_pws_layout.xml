@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent">
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="8dp"
+        android:background="@drawable/main_activity_item_background"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/alert_dialog_psw_title_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:fontFamily="@font/ali_mama_fang"
+            android:gravity="center"
+            android:text="@string/unload"
+            android:textSize="27sp" />
+
+        <TextView
+            android:id="@+id/alert_dialog_psw_tips_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="35dp"
+            android:textColor="@color/liji_material_red_500"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:fontFamily="@font/ali_mama_fang"/>
+
+        <LinearLayout
+            android:layout_width="270dp"
+            android:layout_height="170dp"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="8dp">
+
+                <EditText
+                    android:id="@+id/alert_dialog_origin_psw_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/login_input_broad"
+                    android:hint="@string/info_origin_password_hint"
+                    android:inputType="textPassword"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="8dp">
+
+                <EditText
+                    android:id="@+id/alert_dialog_new_psw_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/login_input_broad"
+                    android:hint="@string/info_new_password_hint"
+                    android:inputType="textPassword"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="8dp">
+
+                <EditText
+                    android:id="@+id/alert_dialog_new_psw_again_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/login_input_broad"
+                    android:hint="@string/info_new_password_again_hint"
+                    android:inputType="textPassword"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/alert_dialog_psw_positive_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/login_btn_anime"
+            android:fontFamily="@font/ali_mama_fang"
+            android:letterSpacing="0.2"
+            android:text="@string/change_password_btn"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/alert_dialog_psw_negative_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/login_btn_anime"
+            android:fontFamily="@font/ali_mama_fang"
+            android:letterSpacing="0.2"
+            android:text="@string/undo_change_password_btn"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

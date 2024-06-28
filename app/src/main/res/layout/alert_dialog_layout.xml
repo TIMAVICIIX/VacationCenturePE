@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent">
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="240dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="8dp"
+        android:background="@drawable/main_activity_item_background"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/alert_dialog_title_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:fontFamily="@font/ali_mama_fang"
+            android:gravity="center"
+            android:text="@string/unload"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/alert_dialog_message_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/ali_mama_fang"
+            android:gravity="center"
+            android:text="@string/unload_content"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/alert_dialog_positive_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/login_btn_anime"
+            android:fontFamily="@font/ali_mama_fang"
+            android:letterSpacing="0.2"
+            android:text="@string/unload"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/alert_dialog_negative_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/login_btn_anime"
+            android:fontFamily="@font/ali_mama_fang"
+            android:letterSpacing="0.2"
+            android:text="@string/unload"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

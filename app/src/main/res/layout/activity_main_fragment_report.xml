@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.scwang.smart.refresh.layout.SmartRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/report_fragment_smart_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    app:srlAccentColor="@color/white"
+    app:srlEnablePreviewInEditMode="true"
+    app:srlPrimaryColor="@color/transparent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/infos_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:isScrollContainer="true"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <com.scwang.smart.refresh.header.BezierRadarHeader
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    app:srlEnableHorizontalDrag="true"
+                    app:srlAccentColor="@color/white"
+                    app:srlPrimaryColor="@color/transparent"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/report_fragment_recycleView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:background="@color/transparent" />
+
+                <TextView
+                    android:id="@+id/mine_fragment_empty_tips_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:fontFamily="@font/ali_mama_fang"
+                    android:gravity="center"
+                    android:paddingTop="5dp"
+                    android:text="@string/none_info"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/mine_fragment_bottom_tips_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:fontFamily="@font/ali_mama_fang"
+                    android:gravity="top|center"
+                    android:paddingTop="5dp"
+                    android:text="@string/bottom_warn"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+</com.scwang.smart.refresh.layout.SmartRefreshLayout>
